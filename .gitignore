@@ -1,1 +1,6 @@
+*~
+*.bak
+.DS_Store
+*.o
 .obnc/*
+onbcdoc
