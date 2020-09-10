@@ -19,6 +19,7 @@ DEFINITION <em>extArgs</em>;
 	PROCEDURE <em>Get</em>(n: INTEGER; VAR arg: ARRAY OF CHAR; VAR res: INTEGER);
 <span class='comment'>(*returns in arg the n:th command line argument (0 &lt;= n &lt; count). If the size of arg is not large enough to hold the result of the operation, the result is truncated so that arg is always terminated with a 0X. The residual number of truncated characters is assigned to res.*)</span>
 
+    PROCEDURE <em>GetAppName</em>(VAR arg: ARRAY OF CHAR; VAR res : INTEGER);
 END extArgs.
 </pre>
 	</body>
